@@ -1,0 +1,87 @@
+/* Pre-set */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+}
+
+/* Flexbox */
+
+.d-flex {
+  display: flex;
+}
+.justify-content {
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
+.flex-direction-column {
+  flex-direction: column;
+}
+.space-between {
+  justify-content: space-between;
+}
+
+/* Grid */
+
+.grid-2-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+/* General */
+.our_team {
+  background-image: url(resources/photoshop/design-assets/bgk-middle.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fafafa;
+}
+section {
+  padding: 2rem 15rem;
+}
+section div:first-child {
+  width: 50%;
+}
+.clients img {
+  width: 155px;
+}
+h3 {
+  margin-bottom: 2rem;
+}
+
+/* Footer */
+
+footer {
+  background-image: url(resources/photoshop/design-assets/bgk-footer.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fafafa;
+  font-family: "Roboto";
+  padding: 2rem 15rem;
+}
+footer div {
+  width: 33%;
+}
+.footer-container {
+  padding: 2rem 0;
+  text-align: left;
+}
+footer p {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 300;
+}
+footer ul {
+  list-style: none;
+  font-size: 14px;
+  padding-top: 2rem;
+}
+.footer-logo {
+  margin-bottom: 2rem;
+}
