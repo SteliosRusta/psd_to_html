@@ -5,6 +5,7 @@
   box-sizing: border-box;
 }
 body {
+  max-width: 1400px;
 }
 
 /* Flexbox */
@@ -87,6 +88,9 @@ section {
 section div:first-child {
   width: 50%;
 }
+.clients {
+  margin-left: 4rem;
+}
 .clients img {
   width: 120px;
   margin: 0.9rem 0.8rem 0;
@@ -98,14 +102,14 @@ h3 {
 /* Contact Tab */
 
 .contact input {
-  width: 80%;
+  width: 28rem;
   padding: 0.5rem;
-  margin: 1rem;
+  margin: 1rem 1rem 1rem 0;
 }
 .contact textarea {
-  width: 80%;
+  width: 28rem;
   padding: 0.5rem;
-  margin: 1rem;
+  margin: 1rem 1rem 1rem 0;
   height: 40%;
   color: #cccccc;
   border-color: #cccccc;
@@ -149,4 +153,13 @@ footer ul {
 }
 .footer-logo {
   margin-bottom: 2rem;
+}
+footer h4 {
+  margin-bottom: 3.5rem;
+}
+.our_studio {
+  margin-left: 1rem;
+}
+.our_studio p {
+  padding: 0.5rem 0.5rem;
 }
