@@ -28,6 +28,10 @@ body {
 }
 
 /* Grid */
+.grid-3-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 
 .grid-2-col {
   display: grid;
@@ -36,6 +40,36 @@ body {
 }
 
 /* General */
+
+/* Expertise Section */
+
+.expertise {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.expertise-container {
+  margin-top: 3rem;
+}
+.service * {
+  padding: 1rem 1rem;
+}
+.service.one,
+.service.two {
+  border-right: #cccccc solid 2px;
+  border-bottom: #cccccc solid 2px;
+}
+.service.three {
+  border-bottom: #cccccc solid 2px;
+}
+.service.four,
+.service.five {
+  border-right: #cccccc solid 2px;
+}
+.expertise p {
+  color: #cccccc;
+  font-size: 14x;
+  font-weight: 300;
+}
 
 /* Our Team Tab */
 
@@ -85,9 +119,6 @@ body {
 
 section {
   padding: 2rem 15rem;
-}
-section div:first-child {
-  width: 50%;
 }
 .clients {
   margin-left: 4rem;
