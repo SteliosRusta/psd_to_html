@@ -40,6 +40,10 @@ body {
 }
 
 /* General */
+hr {
+  width: 50px;
+  margin: auto;
+}
 
 /* Expertise Section */
 
@@ -69,6 +73,7 @@ body {
   color: #cccccc;
   font-size: 14x;
   font-weight: 300;
+  margin-bottom: 1rem;
 }
 
 /* Our Team Tab */
@@ -83,6 +88,7 @@ body {
 .our_team p {
   font-weight: 300;
   color: #cccccc;
+  margin-bottom: 1rem;
 }
 
 .img-container {
